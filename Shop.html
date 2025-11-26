@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TelebanKicks - Premium Footwear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Shop.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            
+            <img src="img/homepage/Telebankicks_logo.png" alt="TelebanKicks Logo" width="110" height="90" class="brand-logo">
+
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+          
+            <div class="collapse navbar-collapse" id="navbarContent">
+                
+                <form class="search-form d-none d-lg-flex mx-auto">
+                    <i class="fas fa-search search-icon"></i>
+                    <input class="search-input" type="search" placeholder="Search products...">
+                </form>
+
+              
+                <div class="d-flex align-items-center ms-auto">
+                    <ul class="navbar-nav flex-row gap-3">
+                        <li class="nav-item"><a class="nav-link" href="Home.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="Shop.html"><i class="fas fa-shopping-bag"></i> Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AboutUs.html"><i class="fas fa-info-circle"></i> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+
+                   
+                    <a href="Cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+
+                
+                <form class="search-form d-lg-none mt-3">
+                    <i class="fas fa-search search-icon"></i>
+                    <input class="search-input" type="search" placeholder="Search products...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+  
+    <section class="shop-hero">
+        <div class="container">
+            <div class="row align-items-center min-vh-80">
+                <div class="col-lg-6">
+                    <h1 class="shop-title">Premium Sneaker Collection</h1>
+                    <p class="shop-subtitle">Discover the latest trends in footwear with our exclusive collection of premium sneakers from top brands.</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>200+</h3>
+                            <p>Premium Products</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>4.9★</h3>
+                            <p>Customer Rating</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>24/7</h3>
+                            <p>Support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="floating-shoe">
+                            <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Premium Sneakers">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="shop-content py-5">
+        <div class="container">
+           
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="filter-section">
+                        <h3 class="filter-title">Filter by Brand</h3>
+                        <div class="brand-filters">
+                            <button class="brand-filter active" data-brand="all">All Brands</button>
+                            <button class="brand-filter" data-brand="nike">
+                                <img src="img/homepage/Kine.png" alt="Nike" class="brand-logo-filter">
+                                Nike
+                            </button>
+                            <button class="brand-filter" data-brand="adidas">
+                                <img src="img/homepage/Adidis.png" alt="Adidas" class="brand-logo-filter">
+                                Adidas
+                            </button>
+                            <button class="brand-filter" data-brand="puma">
+                                <img src="img/homepage/Pamu.png" alt="Puma" class="brand-logo-filter">
+                                Puma
+                            </button>
+                            <button class="brand-filter" data-brand="newbalance">
+                                <img src="img/homepage/NewB.png" alt="New Balance" class="brand-logo-filter">
+                                New Balance
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="row" id="products-grid">
+               
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="nike">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d369dad4-4b6b-4331-a700-5141c5f8bc20/LEBRON+XXIII+PVD+EP.png" alt="Nike Air Max 270">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nike-air-max-270">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Nike</span>
+                            <h3 class="product-name">LeBron XXIII "Uncharted" EP</h3>
+                            <p class="product-desc">It offers peak lightweight responsiveness thanks to springy. </p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(128)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱10,295.00</span>
+                                <button class="add-to-cart-btn" data-product="Nike Air Max 270" data-price="10295.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="nike">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/AIR FORCE 1.avif" alt="Nike Air Force 1">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nike-air-force-1">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Nike</span>
+                            <h3 class="product-name">Air Force 1</h3>
+                            <p class="product-desc">Classic basketball shoes with timeless style</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="rating-count">(95)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱8,500.00</span>
+                                <button class="add-to-cart-btn" data-product="Nike Air Force 1" data-price="8500.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="nike">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/NIKE DUNK LOW RETRO.avif" alt="Nike Dunk Low">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nike-dunk-low">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Nike</span>
+                            <h3 class="product-name">Dunk Low Retro</h3>
+                            <p class="product-desc">Retro basketball-inspired lifestyle shoes</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="rating-count">(210)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱9,800.00</span>
+                                <button class="add-to-cart-btn" data-product="Nike Dunk Low Retro" data-price="9800.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="nike">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/JORDAN 1 OG.png" alt="Nike Jordan 1">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nike-jordan-1">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Nike</span>
+                            <h3 class="product-name">Jordan 1 High OG</h3>
+                            <p class="product-desc">Iconic basketball shoes with heritage styling</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(156)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱12,500.00</span>
+                                <button class="add-to-cart-btn" data-product="Nike Jordan 1 High OG" data-price="12500.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="nike">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/NIKE STRUCTURE 26.avif" alt="Nike Structure 26">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nike-Structure">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Nike</span>
+                            <h3 class="product-name">Structure 26</h3>
+                            <p class="product-desc">Responsive running shoes with superior comfort</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="rating-count">(89)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱11,200.00</span>
+                                <button class="add-to-cart-btn" data-product="Structure 26" data-price="11200.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="adidas">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Adidas Ultraboost_5_GTX.avif" alt="Adidas Ultraboost">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="adidas-ultraboost">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Adidas</span>
+                            <h3 class="product-name">Ultraboost 5 GTX</h3>
+                            <p class="product-desc">Energy-returning running shoes for optimal performance</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(142)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱12,800.00</span>
+                                <button class="add-to-cart-btn" data-product="Adidas Ultraboost 5 GTX" data-price="12800.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="adidas">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Adidas Anthony_Edwards_2_Shoes_Orange.avif" alt="Adidas Anthony Edwards 2">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="adidas-anthony-edwards-2">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Adidas</span>
+                            <h3 class="product-name">Anthony Edwards 2</h3>
+                            <p class="product-desc">Dynamic design for the next generation of ballers</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="rating-count">(198)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱7,500.00</span>
+                                <button class="add-to-cart-btn" data-product="Adidas Anthony Edwards 2" data-price="7500.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="adidas">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Adidas NMD_R1_Shoes_Black_HQ4452_01_standard.avif" alt="Adidas NMD">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="adidas-nmd">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Adidas</span>
+                            <h3 class="product-name">NMD_R1</h3>
+                            <p class="product-desc">Modern lifestyle shoes with Boost technology</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="rating-count">(113)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱10,900.00</span>
+                                <button class="add-to-cart-btn" data-product="Adidas NMD_R1" data-price="10900.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="adidas">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Adidas GAZELE_INDOOR_Green_JP8342_01_00_standard.avif" alt="Adidas Gazelle">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="adidas-gazelle">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Adidas</span>
+                            <h3 class="product-name">Gazelle Indoor</h3>
+                            <p class="product-desc">Vintage-inspired sneakers with suede upper</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(87)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱8,200.00</span>
+                                <button class="add-to-cart-btn" data-product="Adidas Gazelle Indoor" data-price="8200.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="adidas">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Adidas Samba_OG_Shoes_White_B75806_01_00_standard (1).avif" alt="Adidas Samba">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="adidas-samba">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Adidas</span>
+                            <h3 class="product-name">Samba OG</h3>
+                            <p class="product-desc">The Adidas Samba OG features a premium leather upper with suede overlays, a classic T-toe design, and a durable rubber gum sole for timeless style and everyday comfort.</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="rating-count">(245)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱15,500.00</span>
+                                <button class="add-to-cart-btn" data-product="Adidas Samba OG" data-price="15500.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="puma">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Puma RS-X-Toys-Trainers.avif" alt="Puma RS-X">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="puma-rsx">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Puma</span>
+                            <h3 class="product-name">RS-X Toys</h3>
+                            <p class="product-desc">Bold design with chunky silhouette and comfort</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(134)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱9,200.00</span>
+                                <button class="add-to-cart-btn" data-product="Puma RS-X Toys" data-price="9200.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="puma">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Puma Suede-Classic-XXI-Trainers.avif" alt="Puma Suede">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="puma-suede">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Puma</span>
+                            <h3 class="product-name">Suede Classic XXI</h3>
+                            <p class="product-desc">Iconic suede sneakers with timeless appeal</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="rating-count">(189)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱6,800.00</span>
+                                <button class="add-to-cart-btn" data-product="Puma Suede Classic XXI" data-price="6800.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="puma">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Puma Speedcat-OG-Sneakers-Unisex.avif" alt="Puma Speedcat OG">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="puma-Speedcat-OG">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Puma</span>
+                            <h3 class="product-name">Speedcat OG Sneakers Unisex</h3>
+                            <p class="product-desc">Unisex fashion sneakers with retro vibes</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="5">US 5</option>
+                                        <option value="6">US 6</option>
+                                        <option value="7">US 7</option>
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="rating-count">(76)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱7,500.00</span>
+                                <button class="add-to-cart-btn" data-product="Puma Speedcat OG Sneakers Unisex" data-price="7500.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="puma">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Puma Deviate-NITRO-3-Running-Shoes-Men.avif" alt="Puma Deviate NITRO™ 3 Running Shoes Men">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="puma-deviate-nitro-3">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Puma</span>
+                            <h3 class="product-name">Deviate NITRO™ 3 Running Shoes Men</h3>
+                            <p class="product-desc">Running-inspired lifestyle sneakers</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(98)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱8,900.00</span>
+                                <button class="add-to-cart-btn" data-product="Puma Deviate NITRO 3" data-price="8900.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="puma">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/Puma A$AP-ROCKY-x-PUMA-Inhale-Sneakers-Unisex.avif" alt="Puma A$AP ROCKY x PUMA Inhale Sneakers">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="puma-a$-rocky-x-puma-inhale-sneakers">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">Puma</span>
+                            <h3 class="product-name">A$AP ROCKY x PUMA Inhale Sneakers</h3>
+                            <p class="product-desc">A$AP ROCKY x PUMA collaboration sneakers</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="rating-count">(167)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱13,200.00</span>
+                                <button class="add-to-cart-btn" data-product="Puma A$AP ROCKY x PUMA Inhale Sneakers" data-price="13200.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="newbalance">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/New Balance mg550wge_nb_02_i.webp" alt="New Balance 550">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nb-550">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">New Balance</span>
+                            <h3 class="product-name">550</h3>
+                            <p class="product-desc">Retro basketball-inspired lifestyle sneakers</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(203)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱9,500.00</span>
+                                <button class="add-to-cart-btn" data-product="New Balance 550 White Green" data-price="9500.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="newbalance">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/New Balance u9060ccc_nb_02_i.webp" alt="New Balance 9060">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nb-9060">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">New Balance</span>
+                            <h3 class="product-name">9060</h3>
+                            <p class="product-desc">Modern design with premium materials and comfort</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="rating-count">(156)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱11,800.00</span>
+                                <button class="add-to-cart-btn" data-product="New Balance 9060 Sea Salt" data-price="11800.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="newbalance">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/New Balance ws327nkd_nb_02_i.webp" alt="New Balance 327">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nb-327">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">New Balance</span>
+                            <h3 class="product-name">327</h3>
+                            <p class="product-desc">70s-inspired design with modern comfort</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="rating-count">(142)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱8,700.00</span>
+                                <button class="add-to-cart-btn" data-product="New Balance 327 Moonbeam" data-price="8700.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="newbalance">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/New Balance m2002rbl_nb_02_i.webp" alt="New Balance 2002R">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nb-2002r">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">New Balance</span>
+                            <h3 class="product-name">2002R</h3>
+                            <p class="product-desc">Premium running shoes with deconstructed design</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">(178)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱12,500.00</span>
+                                <button class="add-to-cart-btn" data-product="New Balance 2002R Protection Pack" data-price="12500.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 product-item" data-brand="newbalance">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product/New Balance ml574evw_nb_02_i.webp" alt="New Balance 574">
+                            <div class="product-overlay">
+                                <button class="quick-view" data-product="nb-574">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="wishlist">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-brand">New Balance</span>
+                            <h3 class="product-name">574 Core</h3>
+                            <p class="product-desc">Classic heritage running shoes</p>
+                            <div class="product-meta">
+                                <div class="size-selector">
+                                    <label>Size:</label>
+                                    <select class="size-dropdown">
+                                        <option value="8">US 8</option>
+                                        <option value="9">US 9</option>
+                                        <option value="10">US 10</option>
+                                        <option value="11">US 11</option>
+                                        <option value="12">US 12</option>
+                                    </select>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="rating-count">(234)</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-price">₱7,200.00</span>
+                                <button class="add-to-cart-btn" data-product="New Balance 574 Core" data-price="7200.00">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+       
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <button class="load-more-btn">
+                        <i class="fas fa-sync-alt"></i>
+                        Load More Products
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our newsletter for exclusive deals and new arrivals</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email address" required>
+                            <button class="btn btn-primary" type="submit">SUBSCRIBE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="img/homepage/Telebankicks_logo.png" alt="TelebanKicks" width="80" height="65">
+                        <p>Your premier destination for exclusive and limited edition sneakers.</p>
+                        <div class="social-links">
+                            <a href="Facebook.html"><i class="fab fa-facebook-f"></i></a>
+                            <a href="Instagram.html"><i class="fab fa-instagram"></i></a>
+                            <a href="Twitter.html"><i class="fab fa-twitter"></i></a>
+                            <a href="Tiktok.html"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Shop</h5>
+                    <ul class="footer-links">
+                        <li><a href="Shop.html">All Products</a></li>
+                        <li><a href="Shop.html">New Arrivals</a></li>
+                        <li><a href="Shop.html">Best Sellers</a></li>
+                        <li><a href="Shop.html">Sale Items</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Help</h5>
+                    <ul class="footer-links">
+                        <li><a href="ShippingInfo.html">Shipping Info</a></li>
+                        <li><a href="Returns.html">Returns</a></li>
+                        <li><a href="SizeGuide.html">Size Guide</a></li>
+                        <li><a href="FAQs.html">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Purok 1, Cebu City, Philippines</p>
+                        <p><i class="fas fa-phone"></i> +63 912 345 6789</p>
+                        <p><i class="fas fa-envelope"></i> info@telebankicks.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2023 TelebanKicks. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="PrivacyPolicy.html">Privacy Policy</a>
+                        <a href="TermsOfService.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Function.js"></script>
+    <script src="Shop.js"></script>
+</body>
+</html>

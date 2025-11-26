@@ -1,0 +1,361 @@
+/* Import the same variables from Home.scss */
+@import 'Home';
+
+/* About Us Specific Styles */
+.about-hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: $white;
+    padding: 120px 0 80px;
+    margin-top: 76px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+
+    .about-title {
+        font-size: 3.5rem;
+        font-weight: 900;
+        margin-bottom: 1.5rem;
+        background: linear-gradient(135deg, $white, #93c5fd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .about-subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 3rem;
+        opacity: 0.9;
+        line-height: 1.6;
+    }
+
+    .hero-visual {
+        position: relative;
+        height: 400px;
+
+        .floating-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            animation: float 6s ease-in-out infinite;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@keyframes float {
+    0%, 100% { transform: translate(-50%, -50%) translateY(0px); }
+    50% { transform: translate(-50%, -50%) translateY(-20px); }
+}
+
+/* Mission Section */
+.mission-section {
+    background: $light;
+    
+    .mission-card {
+        background: $white;
+        padding: 2.5rem 2rem;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: $shadow;
+        @include transition;
+        height: 100%;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: $shadow-lg;
+        }
+
+        .mission-icon {
+            width: 80px;
+            height: 80px;
+            background: $gradient-primary;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            
+            i {
+                font-size: 2rem;
+                color: $white;
+            }
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: $dark;
+        }
+
+        p {
+            color: $text-dark;
+            line-height: 1.6;
+            margin: 0;
+        }
+    }
+}
+
+/* Team Section */
+.team-section {
+    background: $white;
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: $dark;
+        margin-bottom: 3rem;
+    }
+
+    .team-card {
+        background: $white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: $shadow;
+        @include transition;
+        height: 100%;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: $shadow-lg;
+        }
+
+        .team-image {
+            height: 250px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                @include transition;
+            }
+        }
+
+        .team-info {
+            padding: 1.5rem;
+            text-align: center;
+
+            h4 {
+                font-size: 1.3rem;
+                font-weight: 700;
+                margin-bottom: 0.5rem;
+                color: $dark;
+            }
+
+            .text-muted {
+                color: $text-dark !important;
+                margin-bottom: 1rem;
+            }
+
+            .social-links {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+
+                a {
+                    width: 40px;
+                    height: 40px;
+                    background: $light;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: $text-dark;
+                    text-decoration: none;
+                    @include transition;
+
+                    &:hover {
+                        background: $primary;
+                        color: $white;
+                        transform: translateY(-2px);
+                    }
+                }
+            }
+        }
+
+        &:hover .team-image img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+/* Stats Section */
+.stats-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: $white;
+
+    .stat-item {
+        h2 {
+            background: linear-gradient(135deg, $white, #93c5fd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin: 0;
+        }
+    }
+}
+
+/* Footer */
+.footer {
+    background: #0f172a;
+    color: $white;
+    padding: 3rem 0 1rem;
+
+    .footer-brand {
+        img {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            opacity: 0.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+
+            a {
+                width: 40px;
+                height: 40px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $white;
+                text-decoration: none;
+                @include transition;
+
+                &:hover {
+                    background: $primary;
+                    transform: translateY(-2px);
+                }
+            }
+        }
+    }
+
+    h5 {
+        color: $white;
+        margin-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: 0.5rem;
+
+            a {
+                color: rgba(255, 255, 255, 0.7);
+                text-decoration: none;
+                @include transition;
+
+                &:hover {
+                    color: $white;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+
+    .contact-info {
+        p {
+            margin-bottom: 0.5rem;
+            opacity: 0.8;
+
+            i {
+                width: 20px;
+                margin-right: 0.5rem;
+                color: $primary;
+            }
+        }
+    }
+
+    .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 1.5rem;
+        margin-top: 2rem;
+
+        p {
+            margin: 0;
+            opacity: 0.7;
+        }
+
+        a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            margin-left: 1.5rem;
+            @include transition;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 100px 0 60px;
+        min-height: auto;
+
+        .about-title {
+            font-size: 2.5rem;
+        }
+
+        .about-subtitle {
+            font-size: 1.1rem;
+        }
+
+        .hero-visual {
+            height: 300px;
+            margin-top: 2rem;
+
+            .floating-image {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+
+    .mission-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .team-card .team-image {
+        height: 200px;
+    }
+
+    .section-title {
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-section .stat-item h2 {
+        font-size: 2.5rem;
+    }
+}

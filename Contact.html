@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TelebanKicks.Com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            
+            <img src="img/homepage/Telebankicks_logo.png" alt="TelebanKicks Logo" width="110" height="90" class="brand-logo">
+
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+          
+            <div class="collapse navbar-collapse" id="navbarContent">
+                
+                <form class="search-form d-none d-lg-flex mx-auto">
+                    <i class="fas fa-search search-icon"></i>
+                    <input class="search-input" type="search" placeholder="Search products...">
+                </form>
+
+                <!-- Navigation Links + Cart -->
+                <div class="d-flex align-items-center ms-auto">
+                    <ul class="navbar-nav flex-row gap-3">
+                        <li class="nav-item"><a class="nav-link" href="Home.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Shop.html"><i class="fas fa-shopping-bag"></i> Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AboutUs.html"><i class="fas fa-info-circle"></i> About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="Contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+
+                    <!-- Cart Icon -->
+                    <a href="Cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Search Bar -->
+                <form class="search-form d-lg-none mt-3">
+                    <i class="fas fa-search search-icon"></i>
+                    <input class="search-input" type="search" placeholder="Search products...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="row align-items-center min-vh-80">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="contact-title">Get In Touch</h1>
+                    <p class="contact-subtitle">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info -->
+    <section class="contact-content py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5">
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Send us a Message</h3>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email Address *</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Subject</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label">Message *</label>
+                                <textarea class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg send-message-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h3 class="info-title">Contact Information</h3>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Visit Our Store</h5>
+                                <p>123 Sneaker Street<br>Cebu City, Philippines 6000</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Call Us</h5>
+                                <p>+63 912 345 6789<br>Mon-Fri: 9am-8pm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email Us</h5>
+                                <p>info@telebankicks.com<br>support@telebankicks.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Store Hours</h5>
+                                <p>Mon-Fri: 9am-8pm<br>Sat: 10am-6pm<br>Sun: 12pm-5pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-card mt-4">
+                        <h5 class="social-title">Follow Us</h5>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="faq-accordion">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                What is your return policy?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We offer a 30-day return policy for all items in original condition. Shoes must be unworn with original packaging.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                How long does shipping take?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Standard shipping takes 3-5 business days. Express shipping is available for 1-2 business days.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                Do you ship internationally?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, we ship to over 50 countries worldwide. International shipping typically takes 7-14 business days.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                How do I track my order?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>You'll receive a tracking number via email once your order ships. You can also track it in your account dashboard.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="img/homepage/Telebankicks_logo.png" alt="TelebanKicks" width="80" height="65">
+                        <p>Your premier destination for exclusive and limited edition sneakers in Cebu.</p>
+                        <div class="social-links">
+                            <a href="Facebook.html"><i class="fab fa-facebook-f"></i></a>
+                            <a href="Instagram.html"><i class="fab fa-instagram"></i></a>
+                            <a href="Twitter.html"><i class="fab fa-twitter"></i></a>
+                            <a href="Tiktok.html"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Shop</h5>
+                    <ul class="footer-links">
+                        <li><a href="Shop.html">All Products</a></li>
+                        <li><a href="Shop.html">New Arrivals</a></li>
+                        <li><a href="Shop.html">Best Sellers</a></li>
+                        <li><a href="Shop.html">Sale Items</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Help</h5>
+                    <ul class="footer-links">
+                        <li><a href="ShippingInfo.html">Shipping Info</a></li>
+                        <li><a href="Returns.html">Returns</a></li>
+                        <li><a href="SizeGuide.html">Size Guide</a></li>
+                        <li><a href="FAQs.html">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Purok 1, Cebu City, Philippines</p>
+                        <p><i class="fas fa-phone"></i> +63 912 345 6789</p>
+                        <p><i class="fas fa-envelope"></i> info@telebankicks.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2023 TelebanKicks. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="PrivacyPolicy.html">Privacy Policy</a>
+                        <a href="TermsOfService.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Function.js"></script>
+    <script src="About&Contact.js"></script>
+
+</body>
+</html>
